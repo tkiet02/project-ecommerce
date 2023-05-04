@@ -1,0 +1,16 @@
+.Container {
+  display: flex;
+}
+
+.Button {
+  text-align: center;
+  flex-grow: 1;
+  background-color: aquamarine;
+  border: 1px solid black;
+}
+
+@media only screen and (max-width: 480px) {
+  .hide-on-mobile {
+    display: none !important;
+  }
+}/*# sourceMappingURL=Styles.css.map */
